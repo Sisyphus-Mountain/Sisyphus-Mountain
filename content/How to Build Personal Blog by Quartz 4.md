@@ -4,9 +4,8 @@ draft: "true"
 tags:
   - blog
   - "#quartz"
-  - example-tag
-created: 2025-12-09 23:11
-modified: Tuesday 9th December 2025 23:15:17
+created: 2025-12-09 23:40
+modified: 2025-12-10 21:05
 ---
 Quartz 4 is so brilliant to build personal blog easily.
 You can follow me to set the most useful and simplest blog, or go with [Welcome to Quartz 4](https://quartz.jzhao.xyz/) for more details.
@@ -37,3 +36,17 @@ npm --version
 ```
 
 # 2.Set Quartz
+
+Select a parent folder you like,  and click right to open Terminal.
+Then,
+```bash
+git clone https://github.com/jackyzha0/quartz.git
+cd quartz
+npm i
+npx quartz create
+```
+
+Now, we are at `/quartz`, enter the sub folder `/content`, and you can see `/content/index.md`, which is the home page.
+
+It's very recommended that you use Obsidian and set the folder `/content` as your vault.
+
